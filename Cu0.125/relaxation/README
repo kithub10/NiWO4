@@ -1,1 +1,14 @@
-t
+Full relaxation done with the following options:
+
+ISPIN = 1
+LORBIT = 11
+EDIFF = 1.0e-5
+NELM = 400
+ISYM   = 2
+
+ISMEAR = 0; SIGMA = 0.10
+EDIFFG = -0.010
+IBRION = 2
+NSW = 200
+POTIM = 0.5
+ISIF = 3
