@@ -1,5 +1,13 @@
 Full relaxation done with the following options:
 
+KPOINTS:
+Automatic mesh
+ 0
+Gamma
+ 4 8 4
+ 0 0 0
+
+INCAR:
 ISPIN = 1
 LORBIT = 11
 EDIFF = 1.0e-5
@@ -12,3 +20,5 @@ IBRION = 2
 NSW = 200
 POTIM = 0.5
 ISIF = 3
+
+ENCUT = 500
