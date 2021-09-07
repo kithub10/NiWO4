@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+
+for {set j 2} {$j < 10} {incr j 2} {
+ spawn scp sangjun@202.31.149.29:~/NiWO4/Cu_0.125/magnetism/Cu_0.125/CU/U_$j/Cu0125_DOS.pdf DOS_$j.pdf
+ expect "*password:*"
+ send "1!cobalt2@\r"
+ interact
+}
