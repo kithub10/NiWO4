@@ -1,0 +1,48 @@
+System  = NiWO4
+#
+ISPIN = 2
+LORBIT = 11
+EDIFF = 1.0e-5
+NELM = 400
+MAGMOM = 2 -2 2 -2 16*0 4*0
+
+ISYM   =      0
+#NELMDL = -8
+
+#
+ISMEAR = -5; SIGMA = 0.10
+#EDIFFG = -0.10
+#IBRION = 2
+#NSW = 200
+#POTIM = 0.5
+#ISIF = 3
+#
+#AMIX          = 0.05
+#BMIX          = 0.000001
+#AMIX_MAG      = 0.20
+#BMIX_MAG      = 0.000001
+LMAXMIX= 4
+##
+ENCUT = 500
+NEDOS = 2001
+##NBANDS=   288
+LDAU         =   .TRUE.
+LDAUTYPE     =   1
+LDAUL        =    2   -1   -1
+LDAUU        =  0.0  0.0  0.0
+LDAUJ        =  0.0  0.0  0.0
+LDAUPRINT    =  1
+
+#LDAU         =   .TRUE.
+#LDAUTYPE     =   2
+#LDAUL        =   -1   -1    2    -1
+#LDAUU        =  0.0  0.0  3.0   0.0
+#LDAUJ        =  0.0  0.0  0.0   0.0
+#LDAUPRINT    =  1
+
+#ALGO = NONE
+#LWANNIER90 = .TRUE.
+
+GGA = PE
+LREAL = Auto
+NPAR = 8
